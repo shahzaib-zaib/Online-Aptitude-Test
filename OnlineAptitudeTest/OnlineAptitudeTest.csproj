@@ -112,6 +112,7 @@
     <Content Include="Global.asax" />
     <Content Include="Index.aspx" />
     <Content Include="Login.aspx" />
+    <Content Include="Myresult.aspx" />
     <Content Include="vendor\css\bootstrap-grid.css" />
     <Content Include="vendor\css\bootstrap-grid.min.css" />
     <Content Include="vendor\css\bootstrap-reboot.css" />
@@ -190,6 +191,13 @@
     </Compile>
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Myresult.aspx.cs">
+      <DependentUpon>Myresult.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Myresult.aspx.designer.cs">
+      <DependentUpon>Myresult.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
