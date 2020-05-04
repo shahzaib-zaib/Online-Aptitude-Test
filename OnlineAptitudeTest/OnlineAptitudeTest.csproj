@@ -123,6 +123,7 @@
     <Content Include="Admin\Interviewdetails.aspx" />
     <Content Include="Admin\Interviewquestion.aspx" />
     <Content Include="Admin\Login.aspx" />
+    <Content Include="Admin\Question.aspx" />
     <Content Include="Category.aspx" />
     <Content Include="Criteria.aspx" />
     <Content Include="favicon.ico" />
@@ -286,6 +287,13 @@
     </Compile>
     <Compile Include="Admin\Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Question.aspx.cs">
+      <DependentUpon>Question.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Question.aspx.designer.cs">
+      <DependentUpon>Question.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
