@@ -120,6 +120,7 @@
     <Content Include="Admin\Editquestion.aspx" />
     <Content Include="Admin\Index.aspx" />
     <Content Include="Admin\Interview.aspx" />
+    <Content Include="Admin\Interviewdetails.aspx" />
     <Content Include="Admin\Login.aspx" />
     <Content Include="Category.aspx" />
     <Content Include="Criteria.aspx" />
@@ -263,6 +264,13 @@
     </Compile>
     <Compile Include="Admin\Interview.aspx.designer.cs">
       <DependentUpon>Interview.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Interviewdetails.aspx.cs">
+      <DependentUpon>Interviewdetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Interviewdetails.aspx.designer.cs">
+      <DependentUpon>Interviewdetails.aspx</DependentUpon>
     </Compile>
     <Compile Include="Admin\Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
