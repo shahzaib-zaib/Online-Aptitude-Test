@@ -108,6 +108,7 @@
     <Content Include="About.aspx" />
     <Content Include="Admin\Addadmin.aspx" />
     <Content Include="Admin\Addcandidate.aspx" />
+    <Content Include="Admin\Addquestion.aspx" />
     <Content Include="Admin\Index.aspx" />
     <Content Include="Admin\Login.aspx" />
     <Content Include="Category.aspx" />
@@ -168,6 +169,13 @@
     </Compile>
     <Compile Include="Admin\Addcandidate.aspx.designer.cs">
       <DependentUpon>Addcandidate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Addquestion.aspx.cs">
+      <DependentUpon>Addquestion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Addquestion.aspx.designer.cs">
+      <DependentUpon>Addquestion.aspx</DependentUpon>
     </Compile>
     <Compile Include="Admin\Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>
