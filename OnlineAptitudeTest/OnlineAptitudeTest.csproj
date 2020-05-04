@@ -124,6 +124,7 @@
     <Content Include="Admin\Interviewquestion.aspx" />
     <Content Include="Admin\Login.aspx" />
     <Content Include="Admin\Question.aspx" />
+    <Content Include="Admin\Resetpass.aspx" />
     <Content Include="Category.aspx" />
     <Content Include="Criteria.aspx" />
     <Content Include="favicon.ico" />
@@ -294,6 +295,13 @@
     </Compile>
     <Compile Include="Admin\Question.aspx.designer.cs">
       <DependentUpon>Question.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Resetpass.aspx.cs">
+      <DependentUpon>Resetpass.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Resetpass.aspx.designer.cs">
+      <DependentUpon>Resetpass.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
