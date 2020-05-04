@@ -141,6 +141,13 @@
     </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Candidatemaster.Master.cs">
+      <DependentUpon>Candidatemaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Candidatemaster.Master.designer.cs">
+      <DependentUpon>Candidatemaster.Master</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -151,6 +158,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Admin.Master" />
+    <Content Include="Candidatemaster.Master" />
     <None Include="packages.config" />
     <Content Include="vendor\css\bootstrap.css.map" />
     <Content Include="vendor\css\bootstrap.min.css.map" />
