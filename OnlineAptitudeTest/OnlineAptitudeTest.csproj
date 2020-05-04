@@ -113,6 +113,7 @@
     <Content Include="Admin\Category.aspx" />
     <Content Include="Admin\Criteria.aspx" />
     <Content Include="Admin\Deleteadmin.aspx" />
+    <Content Include="Admin\DetailinterviewQuestion.aspx" />
     <Content Include="Admin\Index.aspx" />
     <Content Include="Admin\Login.aspx" />
     <Content Include="Category.aspx" />
@@ -208,6 +209,13 @@
     </Compile>
     <Compile Include="Admin\Deleteadmin.aspx.designer.cs">
       <DependentUpon>Deleteadmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\DetailinterviewQuestion.aspx.cs">
+      <DependentUpon>DetailinterviewQuestion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\DetailinterviewQuestion.aspx.designer.cs">
+      <DependentUpon>DetailinterviewQuestion.aspx</DependentUpon>
     </Compile>
     <Compile Include="Admin\Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>
